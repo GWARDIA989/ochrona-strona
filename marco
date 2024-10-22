@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ochrona Osób i Mienia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            margin: 0;
+        }
+        header {
+            background-image: url('https://images.unsplash.com/photo-1581092580491-e7f9a9b04b6e'); /* Wojskowa grafika */
+            background-size: cover;
+            padding: 150px 20px;
+            color: #fff;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border: 2px solid #ecf0f1;
+            border-radius: 25px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+        }
+        .content {
+            padding: 50px 20px;
+            background-color: #34495e;
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .logo {
+            background: url('https://images.unsplash.com/photo-1598887142483-e3d9f26a2d18') no-repeat center; /* Tygrys - spadochroniarz */
+            background-size: contain;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 20px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service-item {
+            background-color: #2c3e50;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            width: 300px;
+            transition: transform 0.3s;
+        }
+        .service-item:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #222;
+            color: #777;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <h1>Ochrona Osób i Mienia</h1>
+        <nav>
+            <a href="#services">Nasze Usługi</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+    <div class="content" id="services">
+        <h2>Profesjonalna Ochrona</h2>
+        <p>Zapewniamy pełną ochronę osób i mienia, z użyciem nowoczesnych technologii i doświadczenia.</p>
+        <h3>Nasze Usługi:</h3>
+        <div class="services">
+            <div class="service-item">
+                <h4>Ochrona fizyczna obiektów</h4>
+                <p>Zapewniamy stałą ochronę fizyczną obiektów, zarówno prywatnych, jak i komercyjnych.</p>
+            </div>
+            <div class="service-item">
+                <h4>Monitoring i systemy alarmowe</h4>
+                <p>Oferujemy nowoczesne rozwiązania monitoringu i systemów alarmowych, które podnoszą poziom bezpieczeństwa.</p>
+            </div>
+            <div class="service-item">
+                <h4>Ochrona VIP</h4>
+                <p>Nasza doświadczona kadra zapewni bezpieczne otoczenie dla osób o wysokim profilu publicznym.</p>
+            </div>
+            <div class="service-item">
+                <h4>Szkolenia z zakresu ochrony i bezpieczeństwa</h4>
+                <p>Oferujemy profesjonalne szkolenia, które podnoszą umiejętności ochrony i reagowania na zagrożenia.</p>
+            </div>
+        </div>
+    </div>
+    <footer id="contact">
+        <p>Skontaktuj się z nami: <a href="mailto:kontakt@ochronasroka.pl">kontakt@ochronasroka.pl</a></p>
+        <p>Copyright &copy; 2024 Ochrona Sroka. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
